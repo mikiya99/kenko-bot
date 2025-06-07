@@ -10,9 +10,9 @@ const { DateTime } = require("luxon");
 
   const page = await browser.newPage();
   // 以下の三行は自分で入力
-  const username = "ユーザーID（半角）";
-  const password = "パスワード（半角）";
-  const location = "居住地（全角可）";
+  const username = "69216";
+  const password = "69216TMbx";
+  const location = "宮崎市";
 
   const targetUrl = "https://kenko:kenko-cac@ems4.kouku-dai.ac.jp/~take/kenko/";
 
