@@ -1,7 +1,7 @@
 name: Auto Health Report
 
 #スケジュールを実行するときは4行目の # を消去
-#on:
+on:
   schedule:
     - cron: '0 23 * * *'  # 任意の時間を入力（mm hhの順でUTCで、入力例では0800JSTに実行される）
   workflow_dispatch:
