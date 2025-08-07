@@ -47,7 +47,7 @@ const { DateTime } = require("luxon");
   await page.click('input[name="toi0"][value="1"]');
 
   // 体温
-  const temp = (Math.floor(Math.random() * 5) + 2) / 10 + 36.0;
+  const temp = (Math.floor(Math.random() * 5) + 3) / 10 + 36.0;
   const [intPart, decimalPart] = temp.toFixed(1).split(".");
   await page.evaluate((intPart, decimalPart) => {
     const temp1 = document.querySelector("#temp1");
